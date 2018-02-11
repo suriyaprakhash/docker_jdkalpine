@@ -100,3 +100,9 @@ use comma for multiple containers
 ```sh
 docker exec -it {runningcontainerid} bash
 ```
+
+* Prune
+```sh
+docker system prune
+docker system prune -a
+```
